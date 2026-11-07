@@ -18,7 +18,8 @@ public class ClientSetup {
     public static void renderers(EntityRenderersEvent.RegisterRenderers e) {
         for (var t : new net.neoforged.neoforge.registries.DeferredHolder[]{TrollPack.TROLL, TrollPack.TROLL_AGGRO, TrollPack.TROLL_NPC,
                 TrollPack.TROLL_ELITE, TrollPack.TROLL_VOODOO, TrollPack.TROLL_CHIEF}) {
-            e.registerEntityRenderer((net.minecraft.world.entity.EntityType<TrollEntity>) t.get(), TrollRenderer::new);
+            boolean glow = t == TrollPack.TROLL_VOODOO; // only the voodoo troll ships a _glowmask texture
+            e.registerEntityRenderer((net.minecraft.world.entity.EntityType<TrollEntity>) t.get(), c -> new TrollRenderer(c, glow));
         }
         for (var t : new net.neoforged.neoforge.registries.DeferredHolder[]{TrollPack.DECOR_PIG, TrollPack.DECOR_POT, TrollPack.DECOR_TOTEM,
                 TrollPack.DECOR_BEDMAT, TrollPack.DECOR_THRONE}) {
@@ -29,10 +30,10 @@ public class ClientSetup {
     }
 
     public static class TrollRenderer extends GeoEntityRenderer<TrollEntity> {
-        public TrollRenderer(EntityRendererProvider.Context ctx) {
+        public TrollRenderer(EntityRendererProvider.Context ctx, boolean glow) {
             super(ctx, new TrollModel());
             this.shadowRadius = 0.8f;
-            addRenderLayer(new AutoGlowingGeoLayer<>(this)); // uses troll_voodoo_glowmask.png (from the pack's _e texture)
+            if (glow) addRenderLayer(new AutoGlowingGeoLayer<>(this)); // uses troll_voodoo_glowmask.png (from the pack's _e texture)
         }
         @Override protected float getDeathMaxRotation(TrollEntity e) { return 0f; } // the model has its own death animation
     }
