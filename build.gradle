@@ -1,0 +1,34 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = 'com.trollpack'
+base { archivesName = mod_id }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
+neoForge {
+    version = project.neo_version
+    runs {
+        client { client(); systemProperty 'neoforge.enabledGameTestNamespaces', mod_id }
+        server { server(); programArgument '--nogui' }
+    }
+    mods { "${mod_id}" { sourceSet sourceSets.main } }
+}
+
+dependencies {
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:${geckolib_version}"
+}
+
+processResources {
+    var props = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version,
+                 neo_version: neo_version, geckolib_version: geckolib_version]
+    inputs.properties props
+    filesMatching('META-INF/neoforge.mods.toml') { expand props }
+}

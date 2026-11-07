@@ -1,0 +1,739 @@
+{
+ "unsupported_face_rotations": [
+  "troll:0_10:up:90",
+  "troll:0_10:down:90",
+  "troll:0_11:up:90",
+  "troll:0_11:down:90",
+  "troll:0_12:up:90",
+  "troll:0_12:down:90",
+  "troll:2_11:up:90",
+  "troll:2_11:down:90",
+  "troll:2_12:up:90",
+  "troll:2_12:down:90",
+  "troll:2_13:up:90",
+  "troll:2_13:down:90",
+  "troll:1_11:up:90",
+  "troll:1_11:down:90",
+  "troll:1_12:up:90",
+  "troll:1_12:down:90",
+  "troll:1_13:up:90",
+  "troll:1_13:down:90",
+  "troll:2_spear:east:270",
+  "troll:2_spear:west:270",
+  "troll:2_spear:east:270",
+  "troll:2_spear:west:270",
+  "troll:2_spear:east:90",
+  "troll:2_spear:west:90",
+  "troll:2_spear:east:90",
+  "troll:2_spear:west:90",
+  "troll:1_spear:east:270",
+  "troll:1_spear:west:270",
+  "troll:1_spear:east:270",
+  "troll:1_spear:west:270",
+  "troll:1_spear:east:90",
+  "troll:1_spear:west:90",
+  "troll:1_spear:east:90",
+  "troll:1_spear:west:90",
+  "troll:0_spear:east:270",
+  "troll:0_spear:west:270",
+  "troll:0_spear:east:270",
+  "troll:0_spear:west:270",
+  "troll:0_spear:east:90",
+  "troll:0_spear:west:90",
+  "troll:0_spear:east:90",
+  "troll:0_spear:west:90",
+  "troll:0_spear_throw:east:270",
+  "troll:0_spear_throw:west:270",
+  "troll:0_spear_throw:east:270",
+  "troll:0_spear_throw:west:270",
+  "troll:0_spear_throw:east:90",
+  "troll:0_spear_throw:west:90",
+  "troll:0_spear_throw:east:90",
+  "troll:0_spear_throw:west:90",
+  "troll:1_spear_throw:east:270",
+  "troll:1_spear_throw:west:270",
+  "troll:1_spear_throw:east:270",
+  "troll:1_spear_throw:west:270",
+  "troll:1_spear_throw:east:90",
+  "troll:1_spear_throw:west:90",
+  "troll:1_spear_throw:east:90",
+  "troll:1_spear_throw:west:90",
+  "troll:2_spear_throw:east:270",
+  "troll:2_spear_throw:west:270",
+  "troll:2_spear_throw:east:270",
+  "troll:2_spear_throw:west:270",
+  "troll:2_spear_throw:east:90",
+  "troll:2_spear_throw:west:90",
+  "troll:2_spear_throw:east:90",
+  "troll:2_spear_throw:west:90",
+  "troll_pig:rotate:east:90",
+  "troll_pig:rotate:west:270",
+  "troll_pot:pot3:up:270",
+  "troll_pot:pot3:down:270",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_totem:totem:up:270",
+  "troll_totem:totem:down:90",
+  "troll_bedmat:bedmat:up:90",
+  "troll_bedmat:bedmat:down:270",
+  "troll_bedmat:bedmat:up:90",
+  "troll_bedmat:bedmat:down:270"
+ ],
+ "troll": {
+  "hitbox": {
+   "width": 1.5,
+   "height": 2.6875,
+   "min": [
+    -12,
+    0,
+    -14
+   ],
+   "max": [
+    12,
+    43,
+    10
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {
+   "h_head": [
+    "0_5",
+    "0_1",
+    "0_7",
+    "0_3",
+    "0_4",
+    "0_6",
+    "0_8",
+    "0_9",
+    "0_10",
+    "0_11",
+    "0_12",
+    "0_2",
+    "2_4",
+    "2_3",
+    "2_5",
+    "2_2",
+    "2_1",
+    "2_8",
+    "2_6",
+    "2_9",
+    "2_7",
+    "2_10",
+    "2_11",
+    "2_12",
+    "2_13",
+    "1_1",
+    "1_5",
+    "1_8",
+    "1_2",
+    "1_6",
+    "1_9",
+    "1_3",
+    "1_7",
+    "1_10",
+    "1_4",
+    "1_11",
+    "1_12",
+    "1_13",
+    "2_14",
+    "1_14",
+    "0_13"
+   ],
+   "h_tusk": [
+    "h_tusk_gold"
+   ],
+   "h_tusk2": [
+    "h_tusk2_gold"
+   ],
+   "body": [
+    "2_body",
+    "2_body_fem",
+    "0_body_fem",
+    "1_body_fem",
+    "1_body"
+   ],
+   "left_arm": [
+    "2_left_arm",
+    "1_left_arm_armor",
+    "0_left_arm_armor",
+    "2_left_arm_armor",
+    "1_left_arm"
+   ],
+   "left_forearm": [
+    "2_left_forearm",
+    "1_left_forearm",
+    "2_shield",
+    "1_shield",
+    "0_shield"
+   ],
+   "left_hand": [
+    "2_left_hand",
+    "1_left_hand"
+   ],
+   "right_arm": [
+    "2_right_arm",
+    "2_right_arm_armor",
+    "1_right_arm_armor",
+    "0_right_arm_armor",
+    "1_right_arm"
+   ],
+   "right_forearm": [
+    "2_right_forearm",
+    "1_right_forearm"
+   ],
+   "right_hand": [
+    "2_right_hand",
+    "1_right_hand",
+    "2_spear",
+    "1_spear",
+    "0_spear",
+    "0_spear_throw",
+    "1_spear_throw",
+    "2_spear_throw"
+   ],
+   "left_leg": [
+    "2_left_leg",
+    "1_left_leg"
+   ],
+   "left_shin": [
+    "2_left_shin",
+    "1_left_shin"
+   ],
+   "left_foot": [
+    "2_left_foot",
+    "1_left_foot"
+   ],
+   "right_leg": [
+    "2_right_leg",
+    "1_right_leg"
+   ],
+   "right_shin": [
+    "2_right_shin",
+    "1_right_shin"
+   ],
+   "right_foot": [
+    "2_right_foot",
+    "1_right_foot"
+   ]
+  },
+  "animations": [
+   "idle",
+   "death",
+   "walk",
+   "sleep_idle",
+   "run",
+   "sit_idle",
+   "throw_spear",
+   "melee_1",
+   "melee_2",
+   "melee_empty_1",
+   "melee_empty_2",
+   "jump_attack_leap",
+   "jump_attack_hit",
+   "sit",
+   "sit_getup",
+   "sit_eat",
+   "forage",
+   "sleep_laydown",
+   "sleep_getup",
+   "swim"
+  ],
+  "bones": [
+   "body",
+   "left_arm",
+   "left_forearm",
+   "left_hand",
+   "right_arm",
+   "right_forearm",
+   "right_hand",
+   "left_leg",
+   "left_shin",
+   "left_foot",
+   "right_leg",
+   "right_shin",
+   "right_foot",
+   "h_head",
+   "h_tusk",
+   "h_tusk2",
+   "0_5",
+   "0_1",
+   "0_7",
+   "0_3",
+   "0_4",
+   "0_6",
+   "0_8",
+   "0_9",
+   "0_10",
+   "0_11",
+   "0_12",
+   "0_2",
+   "h_tusk_gold",
+   "h_tusk2_gold",
+   "2_4",
+   "2_3",
+   "2_5",
+   "2_2",
+   "2_1",
+   "2_8",
+   "2_body",
+   "2_left_arm",
+   "2_left_forearm",
+   "2_left_hand",
+   "2_right_arm",
+   "2_right_forearm",
+   "2_right_hand",
+   "2_right_arm_armor",
+   "1_right_arm_armor",
+   "1_left_arm_armor",
+   "0_left_arm_armor",
+   "0_right_arm_armor",
+   "2_left_arm_armor",
+   "2_left_leg",
+   "2_left_shin",
+   "2_left_foot",
+   "2_right_leg",
+   "2_right_shin",
+   "2_right_foot",
+   "2_body_fem",
+   "0_body_fem",
+   "1_body_fem",
+   "2_6",
+   "2_9",
+   "2_7",
+   "2_10",
+   "2_11",
+   "2_12",
+   "2_13",
+   "1_1",
+   "1_5",
+   "1_8",
+   "1_2",
+   "1_6",
+   "1_9",
+   "1_3",
+   "1_7",
+   "1_10",
+   "1_4",
+   "1_body",
+   "1_left_arm",
+   "1_left_forearm",
+   "1_left_hand",
+   "1_right_arm",
+   "1_right_forearm",
+   "1_right_hand",
+   "1_left_leg",
+   "1_left_shin",
+   "1_left_foot",
+   "1_right_leg",
+   "1_right_shin",
+   "1_right_foot",
+   "1_11",
+   "1_12",
+   "1_13",
+   "2_shield",
+   "1_shield",
+   "0_shield",
+   "2_spear",
+   "1_spear",
+   "0_spear",
+   "2_14",
+   "1_14",
+   "0_13",
+   "0_spear_throw",
+   "1_spear_throw",
+   "2_spear_throw"
+  ],
+  "glowmask": false,
+  "atlas": [
+   64,
+   752
+  ],
+  "textures": [
+   "troll_body_teal.png",
+   "troll_hair_red.png",
+   "troll_body_green.png",
+   "troll_body_seafoam.png",
+   "troll_hair_white.png",
+   "troll_tusks.png",
+   "troll_hair_black.png",
+   "troll_shield.png",
+   "troll_body_seaform_female.png",
+   "troll_body_green_female.png",
+   "troll_body_blue_female.png",
+   "troll_spear.png",
+   "troll_armor_1.png",
+   "troll_mask.png"
+  ]
+ },
+ "troll_elite": {
+  "hitbox": {
+   "width": 1.5,
+   "height": 2.6875,
+   "min": [
+    -12,
+    0,
+    -14
+   ],
+   "max": [
+    12,
+    43,
+    10
+   ]
+  },
+  "hidden_bones": [
+   "h_head",
+   "h_tusk",
+   "h_tusk2"
+  ],
+  "alt_bones": {},
+  "animations": [
+   "idle",
+   "walk",
+   "death",
+   "run",
+   "in_air",
+   "melee_1_1",
+   "melee_1_2",
+   "melee_2_1",
+   "leap",
+   "land",
+   "dance"
+  ],
+  "bones": [
+   "body",
+   "right_arm",
+   "right_forearm",
+   "right_hand",
+   "left_arm",
+   "left_forearm",
+   "left_hand",
+   "right_leg",
+   "right_shin",
+   "right_foot",
+   "left_leg",
+   "left_shin",
+   "left_foot",
+   "h_head",
+   "h_tusk",
+   "h_tusk2",
+   "loin",
+   "loin2"
+  ],
+  "glowmask": false,
+  "atlas": [
+   128,
+   192
+  ],
+  "textures": [
+   "troll_kopesh.png",
+   "troll_elite.png"
+  ]
+ },
+ "troll_voodoo": {
+  "hitbox": {
+   "width": 1.5,
+   "height": 2.6875,
+   "min": [
+    -12,
+    0,
+    -14
+   ],
+   "max": [
+    12,
+    43,
+    10
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [
+   "idle",
+   "walk",
+   "death",
+   "greet",
+   "spell_1",
+   "melee_1"
+  ],
+  "bones": [
+   "body",
+   "skirt_front",
+   "skirt_front2",
+   "right_arm",
+   "right_forearm",
+   "right_hand",
+   "left_arm",
+   "left_forearm",
+   "left_hand",
+   "right_leg",
+   "right_shin",
+   "right_foot",
+   "left_leg",
+   "left_shin",
+   "left_foot",
+   "h_head",
+   "h_tusk",
+   "h_tusk2",
+   "backthing1",
+   "hangingfeather",
+   "backthing2"
+  ],
+  "glowmask": true,
+  "atlas": [
+   128,
+   256
+  ],
+  "textures": [
+   "troll_voodoo.png",
+   "voodoo_staff.png"
+  ]
+ },
+ "troll_chief": {
+  "hitbox": {
+   "width": 1.375,
+   "height": 1.75,
+   "min": [
+    -11,
+    0,
+    -10
+   ],
+   "max": [
+    11,
+    28,
+    10
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [
+   "idle",
+   "hand_out"
+  ],
+  "bones": [
+   "torso",
+   "h_head",
+   "tusk2",
+   "tusk3",
+   "feather5",
+   "feather4",
+   "feather3",
+   "feather2",
+   "featherlong4",
+   "featherlong3",
+   "featherlong2",
+   "featherlong",
+   "feather",
+   "right_leg",
+   "right_shin",
+   "right_foot",
+   "right_arm",
+   "right_forearm",
+   "right_hand",
+   "left_leg",
+   "left_shin",
+   "left_foot",
+   "left_arm",
+   "left_forearm",
+   "left_hand"
+  ],
+  "glowmask": false,
+  "atlas": [
+   128,
+   128
+  ],
+  "textures": [
+   "troll_chief.png"
+  ]
+ },
+ "troll_pig": {
+  "hitbox": {
+   "width": 1.0,
+   "height": 1.0,
+   "min": [
+    -8,
+    0,
+    -8
+   ],
+   "max": [
+    8,
+    16,
+    8
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [
+   "idle",
+   "hit"
+  ],
+  "bones": [
+   "base",
+   "rotate"
+  ],
+  "glowmask": false,
+  "atlas": [
+   128,
+   128
+  ],
+  "textures": [
+   "troll_pig.png"
+  ]
+ },
+ "troll_pot": {
+  "hitbox": {
+   "width": 0.875,
+   "height": 1.125,
+   "min": [
+    -7,
+    0,
+    -7
+   ],
+   "max": [
+    7,
+    18,
+    7
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {
+   "pot": [
+    "pot2",
+    "pot3"
+   ]
+  },
+  "animations": [
+   "nudge"
+  ],
+  "bones": [
+   "pot",
+   "pot2",
+   "pot3"
+  ],
+  "glowmask": false,
+  "atlas": [
+   64,
+   160
+  ],
+  "textures": [
+   "troll_pot_1.png",
+   "troll_pot_2.png",
+   "troll_pot_3.png"
+  ]
+ },
+ "troll_totem": {
+  "hitbox": {
+   "width": 1.0,
+   "height": 1.5625,
+   "min": [
+    -8,
+    0,
+    -8
+   ],
+   "max": [
+    8,
+    25,
+    8
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [],
+  "bones": [
+   "totem"
+  ],
+  "glowmask": false,
+  "atlas": [
+   64,
+   64
+  ],
+  "textures": [
+   "troll_totem.png"
+  ]
+ },
+ "troll_bedmat": {
+  "hitbox": null,
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [],
+  "bones": [
+   "bedmat"
+  ],
+  "glowmask": false,
+  "atlas": [
+   128,
+   128
+  ],
+  "textures": [
+   "troll_bedmat.png"
+  ]
+ },
+ "troll_throne": {
+  "hitbox": {
+   "width": 2.1875,
+   "height": 3.75,
+   "min": [
+    -17,
+    0,
+    -19
+   ],
+   "max": [
+    18,
+    60,
+    15
+   ]
+  },
+  "hidden_bones": [],
+  "alt_bones": {},
+  "animations": [],
+  "bones": [
+   "base",
+   "mid",
+   "top"
+  ],
+  "glowmask": false,
+  "atlas": [
+   256,
+   256
+  ],
+  "textures": [
+   "chief_throne.png"
+  ]
+ }
+}
