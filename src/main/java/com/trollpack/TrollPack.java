@@ -31,7 +31,7 @@ public class TrollPack {
     }
 
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, ID);
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ID);
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Registries.SOUND_EVENT, ID);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ID);
 

@@ -64,9 +64,9 @@ public class TrollModel extends GeoModel<TrollEntity> {
     private void replace(String base, String alt) {
         if (alt != null && getBone(alt).isPresent()) {
             getBone(alt).get().setHidden(false);
-            getBone(base).ifPresent(b -> b.setHidden(true, false));
+            getBone(base).ifPresent(b -> b.setHidden(true));
         } else {
-            getBone(base).ifPresent(b -> b.setHidden(false, false));
+            getBone(base).ifPresent(b -> b.setHidden(false));
         }
     }
 }
