@@ -17,6 +17,6 @@ public class DecorModel extends GeoModel<DecorEntity> {
         int s = e.skin(); // pot skins: base "pot", alts "pot2"/"pot3" (lr_troll_pots_parts)
         getBone("pot2").ifPresent(b -> b.setHidden(s != 1));
         getBone("pot3").ifPresent(b -> b.setHidden(s != 2));
-        getBone("pot").ifPresent(b -> b.setHidden(s != 0));
+        getBone("pot").ifPresent(b -> { b.setHidden(s != 0); b.setChildrenHidden(false); });
     }
 }
